@@ -1,7 +1,7 @@
 html {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(115deg, #000,#111, #292a2d 40% 59%, #111, #000);
+    background-image: linear-gradient(60deg, #000, #111, #292a2d 40% 59%, #111, #000);
     color: #fff;
     overflow: hidden;
 }
@@ -31,31 +31,31 @@ h1 {
     font-size: 4rem;
     text-align: center;
 
-    font-family: 'Corben',cursive;
+    font-family: 'Corben', cursive;
     font-style: italic;
-    text-shadow: -10px 15px #1f1f1f;
-    margin-bottom: 15px;
+    text-shadow: 15px 15px #1f1f1f;
+    margin-bottom: 10px;
 }
 
 /* Logo */
 .linktree {
-    
-    box-shadow: -10px 15px #1f1f1f;
-    background: linear-gradient(115deg, #ffffff4c,#eeeeee4c, #d6d5d2 45% 55%, #eeeeee4c, #ffffff4c);
+
+    box-shadow: 15px 15px #1f1f1f;
+    background: linear-gradient(60deg, #ffffff4c, #eeeeee4c, #d6d5d2 45% 55%, #eeeeee4c, #ffffff4c);
     border-radius: 10px;
     padding: 20px;
-    
+
     width: fit-content;
     margin: 30vh auto 0 auto;
-    
+
 }
 
-.logo  {
+.logo {
     align-items: center;
 }
 
 #logo {
-    width: 250px; 
+    width: 250px;
 }
 
 /* Contatos */
@@ -68,7 +68,7 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     padding: 0;
-    
+
     justify-content: center;
     text-align: left;
 
@@ -84,7 +84,7 @@ h1 {
     text-decoration: none;
     font-size: 1.7rem;
     text-align: center;
-    
+
 }
 
 .contatos a:hover {
@@ -92,7 +92,7 @@ h1 {
     color: black;
 }
 
-.contatos li{
+.contatos li {
     margin: 15px 15px 35px;
     /* width: 200px; */
 }
@@ -112,11 +112,11 @@ h1 {
 }
 
 @media screen and (max-width: 800px) {
-    .linktree{
+    .linktree {
         margin-top: 0;
     }
 
-    html{
+    html {
         overflow-x: hidden;
         overflow-y: scroll;
         height: auto;
@@ -124,11 +124,11 @@ h1 {
 }
 
 @media screen and (max-width: 480) {
-    .linktree{
+    .linktree {
         margin-top: 0;
     }
 
-    html{
+    html {
         overflow-x: hidden;
         overflow-y: scroll;
         height: auto;
